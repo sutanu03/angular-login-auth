@@ -1,0 +1,6 @@
+<form class="box" action="" method="POST" target="_self">
+    <h1>login</h1>
+    <input type="text" [(ngModel)]="loginObj.username" name="username" id="username" placeholder="Username" required> 
+    <input type="password" [(ngModel)]="loginObj.password" name="password" id="pass" placeholder="Password" required>
+    <button type="button" id="submit" value="login" (click)="onLogin()">Sign IN</button>
+  </form>
